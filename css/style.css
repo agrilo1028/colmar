@@ -1,0 +1,173 @@
+html {
+    font-family: "Trebuchet MS";
+    color: rgb(59, 55, 55);
+}
+
+.mobile {
+    visibility: hidden;
+    display: none;
+}
+
+img .mobile {
+    display: none;
+    visibility: hidden;
+}
+
+header {
+    height: 64px;
+    width: 100%;
+    padding: 0 24px;
+    padding-bottom: 15px;
+}
+
+#logo-d {
+    width: 50px;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.h1 {
+    font-weight: 200;
+    color: lightgrey;
+}
+
+.desktop {
+    display: inline-flex;
+    width: 100%;
+}
+
+.flex {
+    display: inline-flex;
+}
+
+li {
+    display: inline-flex;
+    margin-left: 16px;
+    line-height: 1.6;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 0;
+}
+
+.first {
+    background-color: lightgrey;
+    display: inline-flex;
+}
+
+.first img {
+    padding: 32px 24px;
+    width: 60%;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 1.2;
+}
+
+.first-text {
+    width: 500px;
+    margin: auto auto;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 1.4;
+}
+
+.button {
+    color:white;
+    background: rgb(59, 55, 55);
+    width: 420px;
+    font-size: 24px;
+    padding: 20px auto;
+    text-align: center;
+    height: 70px;
+    margin-top: 40px;
+    font-weight: lighter;
+    line-height: 2.8;
+}
+
+.second {
+    display: flex;
+    width: 100%;
+}
+
+.left .side, .left .sidegray {
+    display: inline-flex;
+    padding-left: 16px;
+}
+
+#left {
+    width: 100%;
+}
+
+#left-left {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.left h2, .left p {
+    padding-left: 24px;
+    /* width: 100%; */
+}
+
+.left h2 {
+    margin-bottom: 24px;   
+}
+
+p {
+    font-size: 22px;
+    font-weight: 1.2;
+    letter-spacing: 2px;
+    font-family: Georgia;
+}
+
+.sign {
+    font-size: 18px;
+    letter-spacing: 0;
+}
+
+#left-right {
+    width: 40%;
+}
+
+#left-right img {
+    width: 105%;
+    margin: 0;
+    height: auto;
+    padding: 35px 16px;
+    /* border: 2px solid black; */
+}
+
+.side, .sidegray {
+    border: 2px solid lightgray;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.text {
+    width: 130%;
+    padding: 15px;
+}
+
+.RM {
+    color: lightskyblue;
+}
+
+#left-right h4 {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+video {
+    width: 60%;
+}
+
