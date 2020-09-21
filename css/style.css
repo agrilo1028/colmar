@@ -1,6 +1,7 @@
 html {
     font-family: "Trebuchet MS";
     color: rgb(59, 55, 55);
+    width: 100%;
 }
 
 .mobile {
@@ -167,7 +168,93 @@ p {
     line-height: 1;
 }
 
-video {
-    width: 60%;
+#start h2 {
+    text-align: center;
 }
 
+#start {
+    background: lightgray;
+    padding: 32px 50px;
+}
+
+.box {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.minibox {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 420px;
+    margin-right: 32px;
+}
+
+.minibox img {
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.box h4, .box p {
+    margin-left: 16px;
+    margin-top: 5px;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.last h2 {
+    text-align: center;
+}
+
+.last {
+    padding: 32px 24px;
+}
+
+.oh-my {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.video-left {
+    width: 60%;
+    padding-right: 24px;
+}
+
+video {
+    width: 100%;
+}
+
+.last-right {
+    width: 40%;
+}
+
+.square {
+    padding: 16px;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.half {
+    margin-left: 16px;
+}
+
+footer {
+    border-top: lightgray 1.5px solid;
+    font-size: 16px;
+    color: darkgray;
+}
+
+footer #right {
+    float: right;
+    padding-bottom: 16px;
+    padding-right: 20px;
+}
+
+footer #left {
+    margin-top: 25px;
+    margin-left: 20px;
+}
